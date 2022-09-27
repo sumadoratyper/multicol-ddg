@@ -115,10 +115,8 @@
 
     if (threeColumnsMinWidth < resultsWidth) {
       setClass(results, "multicol-ddg-three-columns");
-
     } else if (twoColumnsMinWidth < resultsWidth) {
       setClass(results, "multicol-ddg-two-columns");
-
     } else {
       setClass(results, "multicol-ddg-single-column");
     }
